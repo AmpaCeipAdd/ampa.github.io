@@ -19,6 +19,33 @@ header {
   text-align: center;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.btn-descarga {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #2e8b57;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-descarga:hover {
+  background-color: #1f5e3d;
+}
+
 header h1 {
   font-size: 2rem;
 }
