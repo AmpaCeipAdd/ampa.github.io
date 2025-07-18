@@ -188,3 +188,16 @@ footer a {
     display: flex !important;
   }
 }
+/* 1) Limita el ancho de la tarjeta  */
+#socio .card1 {
+  max-width: 500px;      /* o el ancho que prefieras */
+  margin: 0 auto;        /* centra la tarjeta */
+}
+
+/* 2) Asegura que la imagen nunca exceda la anchura de la tarjeta */
+#socio .card1 img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: auto;          /* mantiene la proporción */
+  display: block;        /* elimina pequeños espacios debajo de la imagen */
+}
+
